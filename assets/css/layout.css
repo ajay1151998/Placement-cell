@@ -1,0 +1,187 @@
+
+body {
+  margin-left: 0%;
+  margin-top: 0px;
+  margin-right: 0px;
+  background-color: rgb(134, 108, 206);
+  color: black;
+  /* text-align: center; */
+}
+
+.head {
+  width: 600px;
+  height: 200px;
+  color:black;
+  margin-left: 35%;
+  
+}
+.head img{
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 20%;
+}
+.actions {
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  
+}
+
+.links {
+  margin-left: 15px;
+  height: 150px;
+ 
+}
+
+.links a {
+  color: rgb(255, 85, 0);
+  text-decoration: none;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.links a img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.form {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-styl{
+  background-color: green;
+  color: white;
+}
+/* -----------------------Responsive ------------------------*/
+@media screen and (max-width:800px) {
+  
+.form {
+  margin-left: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-styl{
+  background-color: green;
+  color: white;
+}
+.actions {
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+}
+/*--------------------------------------------*/
+
+.form-input input {
+  height: 40px;
+  width: 60%;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-width: 0;
+}
+
+.header-styl h1{
+  margin-left: 40%;
+}
+
+.headings {
+  margin-left: 40%;
+  color: aliceblue;
+  margin-top: 10px;
+}
+
+.headingsG a {
+  margin-left: 30%;
+  color: #a9a9a9;
+  /* aliceblue; */
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.threeInput {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.threeSubInput {
+  width: 58.5%;
+  padding-right: 20px;
+  align-content: stretch;
+}
+
+.subInput {
+  width: 100%;
+}
+
+.studentCard {
+  padding: 10px;
+  width: 20%;
+  background-color: pink;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+}
+
+.studentCardActions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+
+input:disabled {
+  background: #dddddd;
+  cursor: pointer;
+}
+
+.student_list_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.name {
+  margin-top: 6px;
+}
+
+.cardLinks {
+  width: 50%;
+}
+.cardLinks a {
+  color: blue;
+  text-decoration: none;
+}
+
+.scoreSub {
+  width: 33%;
+  margin-top: 10px;
+}
+
+.cardHead {
+  font-size: 20px;
+}
+
+.scoreHead {
+  margin-top: 10px;
+}
