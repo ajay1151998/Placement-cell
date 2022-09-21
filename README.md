@@ -20,3 +20,6 @@ This is a placement cell project meant to manage the status of many students
 
 # Important Screenshots
 
+![Screenshot (381)](https://user-images.githubusercontent.com/76857846/191554660-aa26d8ff-bfb3-47c3-b982-2dbfe2318bc8.png)
+
+
